@@ -1,0 +1,34 @@
+name: movies
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.12.0
+  auto_size_text: ^0.3.0
+  cupertino_icons: ^0.1.2
+  flutter_youtube: "^1.1.4"
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  fonts:
+    - family: NunitoSans
+      fonts:
+       # - asset: fonts/NunitoSans-Light.ttf
+        - asset: fonts/Lato-Regular.ttf
+        - asset: fonts/Lato-Bold.ttf
+          weight: 700
+        - asset: fonts/Lato-Black.ttf
+          weight: 900
+
